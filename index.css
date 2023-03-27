@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+}
+#wrap {
+    min-height: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
+.footer{
+    position: relative;
+    margin-top: -150px;
+    height: 150px;
+    clear: both;
+    padding-top: 20px;
+}
+.log_button{
+    font-weight: 700;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+#login_form{
+    border: 1px solid rebeccapurple;
+}
+
+.card .bg-custom-1{
+    background-color: grey;
+}
+
+.active{
+    background-color: blanchedalmond;
+}
+
+.login_button{
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 30%;
+}
+.signUP_button{
+    display: block;
+    position: relative;
+    float: left;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.navbar-brand img{
+    border-radius: 10%;
+}
+
+.rounded_block_tl{
+    border-top: 3px solid rgb(37, 24, 24);
+    border-top-left-radius: 50%;
+    
+}
+
+.rounded_block_tr{
+    border-top: 3px solid rgb(37, 24, 24);
+    border-top-right-radius: 50%;
+}
+
+.rounded_block_bl{
+    border-bottom: 3px solid rgb(37, 24, 24);
+    border-bottom-left-radius: 50%;
+    
+}
+
+.rounded_block_br{
+    border-bottom: 3px solid rgb(37, 24, 24);
+    border-bottom-right-radius: 50%;
+    
+}
+.carousel .item {
+    height: 150px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 150px;
+  }
