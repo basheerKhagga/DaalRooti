@@ -4,10 +4,81 @@ html, body{
 #wrap {
     min-height: 100%;
 }
+
+.customnav{
+    font-family: 'Montserrat', sans-serif;
+}
 #main{
     overflow: auto;
     padding-bottom: 150px;
 }
+.container {
+    line-height: 1.4;
+    text-align: center;
+    align-items: center;
+    padding: 44px;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 50px;
+    color: black;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+
+    color: black;
+    font-size: 18px;
+  }
+  p small {
+    font-size: 80%;
+    color: #666;
+  }
+  
+  .highlight-container, .highlight {
+    position: relative;
+  }
+  
+  .highlight-container {
+    display: inline-block;
+  }
+  .highlight-container:before {
+    content: " ";
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background: #ffd500;
+    transform: rotate(2deg);
+    top: -1px;
+    left: -1px;
+    border-radius: 20% 25% 20% 24%;
+    padding: 10px 3px 3px 10px;
+  }
+  
+
+/* .customhead{
+    margin-right: 100px;
+} */
+.customheader{
+    color: black;
+}
+/* .customdiv{
+    background-color: #f5f5f5;
+    opacity: 0.5;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    margin-bottom: 10px;
+} */
+/* .customdiv,h1{
+    opacity:1;
+} */
 .footer{
     position: relative;
     margin-top: -150px;
